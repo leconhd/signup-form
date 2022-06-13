@@ -1,0 +1,103 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(background.jpg);
+    background-size: cover;
+}
+
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+#logo {
+    position: relative;
+    top: 193px;
+    height: 135px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+#logo img {
+    height: 85%;
+    width: auto;
+    margin: 10px 0 0 5%;
+}
+
+#right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 63%;
+    background-color: #F9FAFB;
+}
+
+#righttext {
+    width: 80%;
+    margin: 16% 0 0 5%;
+}
+
+#forms {
+    height: 260px;
+    width: 90%;
+    margin: 8% 0 0 0;
+    padding: 2px 5%;
+    background: white;
+    box-shadow: 7px 2px 5px 2px #cdcdcd;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.unit {
+    width: 45%;
+}
+
+.unit:nth-child(2n) {
+    margin: 0 0 15px 7%;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    letter-spacing: 0.08rem;
+}
+
+input {
+    width: 100%;
+    line-height: 1.7;
+    border: 1px solid #e2e2e2;
+    border-radius: 3px;
+}
+
+.btn {
+    height: 45px;
+    width: 180px;
+    margin: 50px 0 0 0;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: white;
+    background: #596D48;
+    border: 1px solid #596D48;
+    border-radius: 7px;
+    box-shadow: 2px 2px 5px 1px #cdcdcd;
+}
+
+#links {
+    margin: 30px 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#links a {
+    color:#596D48;
+    text-decoration: none;
+}
